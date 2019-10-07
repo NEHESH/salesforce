@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login Button should be clicked has been clicked]]>
+    </line>
+    <line>
+      <![CDATA[Login ID has been Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password entered has been Entered]]>
+    </line>
+    <line>
+      <![CDATA[Submit Button should be clicked has been clicked]]>
+    </line>
+    <line>
+      <![CDATA[Login Button should be clicked has been clicked]]>
+    </line>
+    <line>
+      <![CDATA[Login ID has been Entered]]>
+    </line>
+    <line>
+      <![CDATA[Password entered has been Entered]]>
+    </line>
+    <line>
+      <![CDATA[Submit Button should be clicked has been clicked]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-10-07T09:22:39Z" name="Default suite" finished-at="2019-10-07T09:23:49Z" duration-ms="69881">
+    <groups>
+    </groups>
+    <test started-at="2019-10-07T09:22:39Z" name="Default test" finished-at="2019-10-07T09:23:49Z" duration-ms="69881">
+      <class name="testCase.Salesforce_Login">
+        <test-method is-config="true" signature="testsite()[pri:0, instance:testCase.Salesforce_Login@2631f68c]" started-at="2019-10-07T09:22:39Z" name="testsite" finished-at="2019-10-07T09:22:39Z" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testsite -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCase.Salesforce_Login@2631f68c]" started-at="2019-10-07T09:22:39Z" name="launchBrowser" finished-at="2019-10-07T09:22:58Z" duration-ms="18533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.util.Hashtable)[pri:0, instance:testCase.Salesforce_Login@2631f68c]" started-at="2019-10-07T09:22:58Z" name="login" data-provider="Data_Collections" finished-at="2019-10-07T09:23:07Z" duration-ms="9255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Login_id=neheshsakpal007-j9gd@force.com, Password=Lampard@66, Iteration=1.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Button should be clicked has been clicked]]>
+            </line>
+            <line>
+              <![CDATA[Login ID has been Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password entered has been Entered]]>
+            </line>
+            <line>
+              <![CDATA[Submit Button should be clicked has been clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCase.Salesforce_Login@2631f68c]" started-at="2019-10-07T09:23:07Z" name="close" finished-at="2019-10-07T09:23:07Z" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:testCase.Salesforce_Login@2631f68c]" started-at="2019-10-07T09:23:07Z" name="launchBrowser" finished-at="2019-10-07T09:23:30Z" duration-ms="22551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="login(java.util.Hashtable)[pri:0, instance:testCase.Salesforce_Login@2631f68c]" started-at="2019-10-07T09:23:30Z" name="login" data-provider="Data_Collections" finished-at="2019-10-07T09:23:49Z" duration-ms="18923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Login_id=sskoli2612@gmail.com, Password=Sandip@1234, Iteration=2.0}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Login Button should be clicked has been clicked]]>
+            </line>
+            <line>
+              <![CDATA[Login ID has been Entered]]>
+            </line>
+            <line>
+              <![CDATA[Password entered has been Entered]]>
+            </line>
+            <line>
+              <![CDATA[Submit Button should be clicked has been clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testCase.Salesforce_Login@2631f68c]" started-at="2019-10-07T09:23:49Z" name="close" finished-at="2019-10-07T09:23:49Z" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="endTest()[pri:0, instance:testCase.Salesforce_Login@2631f68c]" started-at="2019-10-07T09:23:51Z" name="endTest" finished-at="2019-10-07T09:23:52Z" duration-ms="1414" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testCase.Salesforce_Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
